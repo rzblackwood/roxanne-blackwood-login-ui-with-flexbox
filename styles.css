@@ -36,12 +36,14 @@ body {
     justify-content: space-around;
     box-shadow: 15px 12px 7px 5px rgba(100,0,100,0.23);
 }
+/*Login Container Inputs no border no shadow*/
 .yourinfo {
     text-align: center;
     border: none;
     border-radius: 6px;
     background-color: white;
 }
+/*Login Container Button w drop shadow and no border */
 .prettybutton {
     border: none;
     background-color:#56abff;
