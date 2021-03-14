@@ -1,11 +1,11 @@
 /*Styles to remove white space from screen and set body to 100% of view*/
 html {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     height: 100vh;
     width: 100vw;
     font-family: Helvetica, Arial, sans-serif;
@@ -19,9 +19,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-/*Login Container aka white box*/
+/*Login Container aka white-ish pink box*/
 .login-box {
-    background-color: snow;
+    background-color: rgba(255, 250, 250, 0.921);
     height: 33%;
     width: 50%;
     min-width: 200px;
@@ -29,7 +29,7 @@ body {
     min-height: 200px;
     max-height: 200px;
     border-radius: 30px;
-    padding: 40px;
+    padding: 60px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -42,6 +42,8 @@ body {
     border: none;
     border-radius: 6px;
     background-color: white;
+    padding: 5px;
+    margin: 10px;
 }
 /*Login Container Button w drop shadow and no border */
 .prettybutton {
@@ -50,5 +52,6 @@ body {
     padding: 7px;
     border-radius: 10px;
     box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.36);
+    margin: 10px;
 
 }
