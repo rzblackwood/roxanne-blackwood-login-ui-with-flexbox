@@ -8,7 +8,8 @@ body {
     padding: 0px;
     height: 100vh;
     width: 100vw;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(0, 0, 0, 0.578)
 }
 /*Background Screen taking up the entire body area*/
 #screen {
@@ -53,5 +54,6 @@ body {
     border-radius: 10px;
     box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.36);
     margin: 10px;
+
 
 }
